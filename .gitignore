@@ -1,0 +1,28 @@
+# ignore everything in the "vendor" directory, except:
+# "composer", "autoload.php"
+vendor/*
+!vendor/composer/
+!vendor/autoload.php
+
+# ignore node dependency directories
+node_modules/
+
+# ignore IDE files
+.idea/
+
+# ignore log files and databases
+*.lock
+*.log
+*.sql
+*.sqlite
+
+# ignore additional files
+.DS_Store
+phpcs.xml
+phpunit.xml
+Thumbs.db
+wp-cli.local.yml
+node_modules/
+*.sql
+*.tar.gz
+*.zip
